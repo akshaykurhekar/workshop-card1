@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Card from './UI/card';
 
-function App() {
+import "./App.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>React with akshay</h1>
+      {/* <Card></Card> */}
+      <Card />
     </div>
   );
-}
+
+  //  return (
+
+  //     React.createElement('div', null, React.createElement('h1',null,"React with akshay" ) )
+
+  //  );
+};
 
 export default App;
