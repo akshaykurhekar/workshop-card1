@@ -2,10 +2,10 @@
 
 ## Day 1 ( 10th May )
 
-   What is react ?
-   Use of React ?
-   Scope of React ?
-   JavaScript Topics {var, let, const, spread & rest Operator, Destructuring }
+    What is react ? 
+    Use of React ?
+    Scope of React ?
+    JavaScript Topics {var, let, const, spread & rest Operator, Destructuring }
 
 ## Day 2 ( 11th May )
 
