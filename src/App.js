@@ -1,14 +1,24 @@
-import React from "react";
-import Card from './UI/card';
+import React, { useState } from "react";
+import Card from "./UI/card";
+import Input from "./UI/input";
 
 import "./App.css";
 
 const App = () => {
-  return (
-    <div>
-      <h1>React with akshay</h1>
-      {/* <Card></Card> */}
-      <Card />
+
+   const [data, setData] = useState('')
+
+    const inputHandler =(e) =>{
+        //console.log(e.target.value);  
+        setData(e.target.value);
+    }
+
+    return (
+    <div className="app">
+      <Input onChange={ inputHandler } />
+      <div className="char-div">
+        <Card value={ data } />
+      </div>
     </div>
   );
 

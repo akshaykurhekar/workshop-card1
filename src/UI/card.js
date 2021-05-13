@@ -1,9 +1,10 @@
+import Styles from './card.module.css';
 
-const card = () =>{
-    return <div>
-        <h2>card title</h2>
-        <p>card body.....</p>
-    </div>
+const card = (props) =>{
+
+return <div className = { Styles.card } >
+        <p >{ props.value }</p>
+     </div>
 }
 
 

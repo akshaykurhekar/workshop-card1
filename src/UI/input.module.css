@@ -1,0 +1,12 @@
+.input{
+    margin: 2rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    font-size: x-large;    
+}
+
+.input:focus{
+     background: rgb(172, 243, 193);
+     border: 2px solid green;
+     outline: none;
+ }  
