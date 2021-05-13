@@ -24,5 +24,11 @@
     component creation 
     
 ## Day 4 ( 13th May )
+
+    writing expressions in react
+    how to style in react
+    props
+    states { useState }
+    first project 
 ## Day 5
 ## Day 6
