@@ -17,7 +17,7 @@ const App = () => {
       <Input onChange={inputHandler} />
       <div className="char-div">
         {data.split('').map((char,id) => (
-          <div key="id" className="cardStyle">{char}</div>
+          <Card key={id}>{char}</Card>
         ))}
       </div>
     </div>
