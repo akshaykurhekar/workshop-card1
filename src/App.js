@@ -5,19 +5,20 @@ import Input from "./UI/input";
 import "./App.css";
 
 const App = () => {
+  const [data, setData] = useState("");
 
-   const [data, setData] = useState('')
+  const inputHandler = (e) => {
+    //console.log(e.target.value);
+    setData(e.target.value);
+  };
 
-    const inputHandler =(e) =>{
-        //console.log(e.target.value);  
-        setData(e.target.value);
-    }
-
-    return (
+  return (
     <div className="app">
-      <Input onChange={ inputHandler } />
+      <Input onChange={inputHandler} />
       <div className="char-div">
-        <Card value={ data } />
+        {data.split('').map((char,id) => (
+          <div key="id" className="cardStyle">{char}</div>
+        ))}
       </div>
     </div>
   );

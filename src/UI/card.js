@@ -1,9 +1,10 @@
 import Styles from './card.module.css';
 
 const card = (props) =>{
+    console.log(props.children)
 
-return <div className = { Styles.card } >
-        <p >{ props.value }</p>
+return <div className = { Styles.charStyle } >
+        { props.children }
      </div>
 }
 
