@@ -40,3 +40,8 @@
 
 ## Day 6 ( 15th May)
     
+    Routing concept render vs component vs children in react-router
+    two-way binding 
+    github repo creation 
+    gh-pages
+    deploy react-app on github. 
