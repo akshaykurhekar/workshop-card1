@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/workshop-card1/static/css/main.5d370a24.chunk.css",
+    "main.js": "/workshop-card1/static/js/main.9809790b.chunk.js",
+    "main.js.map": "/workshop-card1/static/js/main.9809790b.chunk.js.map",
+    "runtime-main.js": "/workshop-card1/static/js/runtime-main.4a2a5c4e.js",
+    "runtime-main.js.map": "/workshop-card1/static/js/runtime-main.4a2a5c4e.js.map",
+    "static/js/2.7ab9c32e.chunk.js": "/workshop-card1/static/js/2.7ab9c32e.chunk.js",
+    "static/js/2.7ab9c32e.chunk.js.map": "/workshop-card1/static/js/2.7ab9c32e.chunk.js.map",
+    "static/js/3.1aece429.chunk.js": "/workshop-card1/static/js/3.1aece429.chunk.js",
+    "static/js/3.1aece429.chunk.js.map": "/workshop-card1/static/js/3.1aece429.chunk.js.map",
+    "index.html": "/workshop-card1/index.html",
+    "static/css/main.5d370a24.chunk.css.map": "/workshop-card1/static/css/main.5d370a24.chunk.css.map",
+    "static/js/2.7ab9c32e.chunk.js.LICENSE.txt": "/workshop-card1/static/js/2.7ab9c32e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a2a5c4e.js",
+    "static/js/2.7ab9c32e.chunk.js",
+    "static/css/main.5d370a24.chunk.css",
+    "static/js/main.9809790b.chunk.js"
+  ]
+}
