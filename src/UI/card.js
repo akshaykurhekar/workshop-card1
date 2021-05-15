@@ -1,9 +1,8 @@
 import Styles from './card.module.css';
 
 const card = (props) =>{
-    console.log(props.children)
-
-return <div className = { Styles.charStyle } >
+    
+return <div className = { Styles.charStyle } onClick={props.click} >
         { props.children }
      </div>
 }
